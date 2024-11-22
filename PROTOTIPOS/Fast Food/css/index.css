@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Calibri;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+header{
+    background: linear-gradient(to top, white, red);
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+footer{
+    background: linear-gradient(to bottom, white, red);
+    color: black;
+    font-size: 1.8rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.conteudo{
+    font-size: 1.6rem;
+    background-color: #fff;
+    padding: 1rem;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 95%;
+}
+
+.conteudo-topo{
+    font-size: 1.6rem;
+    background-color: #fff;
+    padding: 1rem;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 90%;
+    padding-top: 31rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(255, 0, 0);
+}
+
+h2{
+    font-size: 1.9rem;
+}
+
+h3{
+    font-size: 1.7rem;
+}
+
+h4{
+    font-size: 1.6rem;
+}
+
+h5{
+    font-size: 3rem;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+
+figure{
+    text-align: center;
+}
+
+.imagem-site{
+        border-radius: 10px 10px 10px 10px;
+        width: 60%;
+        height: 40%;
+        border: solid black;
+    }
+
+@media(min-width: 280px) and (max-width: 820px){
+        .imagem-site{
+        border-radius: 10px 10px 50px 10px;
+        width: 90%;
+        height: 70%;
+    }
+}
+
+#compra{
+    background-color: rgba(255, 215, 0, .75);
+    width: 300px;
+    height: 150px;
+    right: 0;
+    position: fixed;
+    text-align: center;
+    margin-top: 21rem;
+    z-index: 1;
+    border-radius: 20px 1px 1px 20px;
+    padding-top: 20px;
+    border: solid green;
+}
+@media(min-width: 280px) and (max-width: 820px){
+    #compra{
+        background-color: rgba(255, 215, 0, .75);
+        width: 160px;
+        height: 100px;
+        right: 0;
+        position: fixed;
+        text-align: center;
+        margin-top: 25rem;
+        z-index: 1;
+        border-radius: 20px 1px 1px 20px;
+        padding-top: 20px;
+        border: solid green;
+    }
+}
+
+#grid-conteudo{
+    background-color: white;
+    padding-top: 20rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid div{
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+#formulario{
+    background-color: #dcdcdc;
+}
+
+input{
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
+
+#mensagem{
+    border: solid;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
+
+#btn-limpar{
+    background-color: rgba(49, 49, 49, 0.966);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+#btn-enviar{
+    background-color: rgba(49, 49, 49, 0.966);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#btn-compras{
+    text-align: center;
+}
+
+nav{
+    text-align: right;
+    font-size: 1.6rem;
+    word-spacing: 10px;
+    margin-right: 5%;
+    padding-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px black;
+    background-color: rgb(255, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+}
+a:hover{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    background-color: rgb(255, 0, 0);
+    padding: 3px;
+    border-radius: 10px;
+    border: solid yellow;
+}
